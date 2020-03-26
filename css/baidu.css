@@ -1,0 +1,264 @@
+/*body{margin: 0;padding: 0}*/
+*{margin: 0;padding: 0}
+.clearfix {
+    overflow: hidden;
+    *zoom: 1;
+}
+.clearfix:after {
+    content: "\20";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+#download-header{
+    width: 100%;
+    height: 60px;
+    border-bottom: solid 1px #dcdcdc;
+}
+.header-logo{
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.logo-logo,.logo-text{
+    display: inline-block;
+    text-indent: -999px;
+    background-image:url('../img/download-all.gif');
+}
+.header-logo .logo-logo{
+    width: 160px;
+    height: 44px;
+    background-position: -644px 2px;
+}
+.header-logo .logo-text{
+    width: 74px;
+    height: 44px;
+    background-position: -690px -48px;
+}
+.header-list{
+    float: right;
+    display: inline-block;
+    margin-top: 36px;
+    margin-right: 8px;
+}
+.header-list a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #2974b6;
+}
+.header-list a:nth-of-type(1){color: #f8645c}
+.header-list a:hover{text-decoration: underline;}
+.header-list span{
+    font-size: 12px;
+    margin: 0 1px 0 5px;
+    color: #2974b6;
+}
+/*下载软件版本列表*/
+.download-list{
+    width: 100%;
+    min-width: 970px;
+
+    background-color: #fafafa;
+}
+.download-list ul{
+    width: 970px;
+    margin: 0 auto;
+}
+.download-list ul li{
+    list-style: none;
+    display: block;
+    float: left;
+    width: 161px;
+    height: 94px;
+    /*border: solid 1px red;*/
+}
+.download-list ul li a{
+    display: block;
+    text-indent: -9999px;
+    width: 100%;
+    height: 36px;
+    margin-top: 30px;
+    background-image: url("../img/download-all.gif");
+}
+.download-list .windows{
+    background-position: 4px -129px;
+}
+.download-list .windows:hover{
+    background-position: 4px -185px;
+}
+.download-list .android{
+    background-position: -165px -129px;
+}
+.download-list .android:hover{
+    background-position: -165px -185px;
+}
+.download-list .iphone{
+    background-position: -344px -129px;
+}
+.download-list .iphone:hover{
+    background-position: -344px -185px;
+}
+.download-list .ipad{
+    background-position: -490px -129px;
+}
+.download-list .ipad:hover{
+    background-position: -490px -185px;
+}
+.download-list .wp{
+    background-position: -620px -129px;
+}
+.download-list .wp:hover{
+    background-position: -620px -185px;
+}
+.download-list .mac{
+    background-position: -758px -129px;
+}
+.download-list .mac:hover{
+    background-position: -758px -185px;
+}
+/*轮播图内容*/
+.download-banner{
+    width: 100%;
+    min-width: 980px;
+    height: 438px;
+    background-image: url("../img/download_bg.png");
+    background-repeat: repeat-x;
+}
+.download-banner .banner-windows{
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    background-image: url("../img/mac.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+.banner-windows .windows-content{
+    position: absolute;
+    top: 195px;
+    left: 587px;
+}
+.banner-windows .windows-content p{
+    line-height: 24px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.windows-content p:nth-of-type(1),.windows-content p:nth-of-type(2) {
+    display: inline-block;
+}
+.windows-content p:nth-of-type(2) {
+    margin-left: 5px;
+}
+.windows-content a{
+    width: 170px;
+    height: 56px;
+    display: block;
+    margin-top: 8px;
+    text-indent: -9999px;
+    background-image: url("../img/download-all.gif");
+}
+.windows-content a:link{
+    background-position: -414px -292px;
+}
+.windows-content a:hover{
+    background-position: -414px -361px;
+}
+.windows-content a:active{
+    background-position: -414px -435px;
+}
+/*下载方法*/
+.download-method{
+    width: 100%;
+    height: 200px;
+    border-bottom: #dcdcdc solid 1px;
+}
+.download-method .method-content{
+    width: 970px;
+    height: 100%;
+    box-sizing: border-box;
+    min-width: 970px;
+    margin: 0 auto;
+    padding: 40px 40px 64px 40px;
+}
+.method-content .content-send{
+    width: 580px;
+    float: left;
+}
+.method-content .content-send p{
+    color: #33466e;
+    font-size: 20px;
+    font-weight: bold;
+}
+.content-send .send-phoneNum{
+    margin-top: 20px;
+}
+.send-phoneNum input:nth-of-type(1){
+    width: 188px;
+    height: 32px;
+}
+.send-phoneNum input:nth-of-type(2){
+    width: 110px;
+    height: 32px;
+    margin-left: 14px;
+}
+.content-send .send-phoneNum img{
+    width: 100px;
+    height: 32px;
+    vertical-align: middle;
+}
+.send-phoneNum .send-message{
+    width: 100px;
+    height: 32px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background-color: #5197ff;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.method-content .qr-Code{
+    width: 290px;
+    float: right;
+}
+.method-content .qr-Code .qr-text{
+    color: #33466e;
+    width: 164px;
+    float: left;
+}
+.qr-Code .qr-text p:nth-of-type(1){
+    font-size: 20px;
+    font-weight: bold;
+}
+.qr-Code .qr-text p:nth-of-type(2){
+    font-size: 12px;
+    margin-top: 18px;
+    line-height: 20px;
+    font-weight: bold;
+}
+.method-content .qr-Code .qr-img{
+    width: 96px;
+    height: 96px;
+    background-image: url("../img/baidu_app_link.png");
+    float: right;
+}
+/*底部部分*/
+.download-footer{
+    width: 100%;
+    height: 68px;
+    box-sizing: border-box;
+    text-align: center;
+    color: #798694;
+    font-size: 13px;
+    padding-top: 45px;
+}
+.download-footer a{
+    color: #798694;
+    text-decoration: none;
+}
+.download-footer a:hover{
+    text-decoration: underline;
+}
